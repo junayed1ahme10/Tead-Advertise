@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.t-right{
+    text-align: right;
+}
+
+.t-left{
+    text-align: left;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.mid-content {
+    max-width: 1028px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header CSS */
+
+body,h1,h2,h3,h4,h5,a,span{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.header-section {
+    border-bottom: 1px solid #ddd;
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+}
+
+.header-logo{
+    width: 30%;
+}
+
+.logo{
+    position: relative;
+}
+
+.logo h2 {
+    position: absolute;
+    top: 14px;
+    left: 61px;
+    font-size: 25px;
+    color: #0691bb;
+}
+
+.header-logo img {
+    width: 56px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.header-mrnu{
+    width: 55%;
+}
+
+.header-button{
+    width: 15%;
+}
+
+.header-mrnu ul li{
+    display: inline-block;
+}
+
+.header-mrnu ul li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 4;
+    color: #0691bb;
+    transition: .4s;
+}
+
+.header-mrnu ul li a:hover{
+    background:#9fd4ff;
+    color: rgb(0, 0, 0);
+}
+
+.header-button{
+    text-align: right;
+}
+.header-btn{
+    border: 2px solid #0691bb;
+    display: inline-block;
+    padding: 9px 30px;
+    margin-top: 9px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #0691bb;
+    transition: .5s;
+}
+
+.header-btn:hover{
+    background: #0691bb;
+    color: #fff;
+}
+
+/* banner section */
+
+.banner-section {
+    background: url(./image/banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 160px 0;
+    margin-top: 74px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 3px 6px 22px #31303096;
+}
+
+/* about section css*/
+
+
+.about-text h2 {
+    font-size: 45px;
+    font-weight: 500;
+    padding: 34px;
+    color: #0691bb;
+}
+
+.about-text p {
+    color: #767676;
+    font-size: 22px;
+    line-height: 2;
+    padding-bottom: 60px;
+}
+
+/* service section */
+.service-section {
+    background: rgb(0,0,0,0.1);
+}
+
+.service-tittle h2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #0691bb;
+    padding: 66px;
+}
+
+.sevice-img {
+    width: 27%;
+    margin-right: 6%;
+}
+
+.sevice-img img {
+    box-shadow: 4px 4px 22px rgb(0 0 0 / 20%);
+    transition: .5s;
+}
+
+.sevice-img img:hover{
+    box-shadow: 4px 8px 22px #0691bb;
+}
+
+.sevice-img h2 {
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #0691bb;
+}
+
+.sevice-img h3 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #000;
+}
+
+.description {
+    font-size: 13px;
+    padding-top: 15px;
+    line-height: 2;
+    color: #767676;
+}
